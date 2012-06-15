@@ -1,5 +1,4 @@
-var foo = require('foo');
-foo.zombify(function (err, zombie)  {
+var foo = require('foo');foo.zombify(function (err, zombie)  {
   console.log('Created a Zombie!', zombie);
 
 });
