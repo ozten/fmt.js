@@ -1,0 +1,21 @@
+{
+  "author": "Ozten <shout@ozten.com> (http://ozten.com/psto/)",
+  "name": "fmt.js",
+  "description": "Reformats JavaScript code to it's canonical form. Enforces JS style guide.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ozten/fmt.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ozten/fmt.js.git"
+  },
+  "main": "bin/fmt",
+  "scripts": {
+    "test": "node tests/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
