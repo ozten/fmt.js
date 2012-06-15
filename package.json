@@ -10,10 +10,12 @@
   },
   "main": "bin/fmt",
   "scripts": {
-    "test": "node tests/*.js"
+    "test": "vows tests/*-test.js --spec"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "vows": "*"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
